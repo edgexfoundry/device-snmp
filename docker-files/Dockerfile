@@ -27,7 +27,7 @@ RUN apk --update add openjdk8-jre
 
 # environment variables
 ENV APP_DIR=/edgex/edgex-device-snmp
-ENV APP=fuse-device-snmp.jar
+ENV APP=device-snmp.jar
 ENV APP_PORT=49989
 
 #copy JAR and property files to the image
